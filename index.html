@@ -1,0 +1,2322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+	<title>Swaraj India</title>
+    <link rel="icon" href="content/images/SI Logo.ico" type="image/x-icon">
+    <meta name="author" content="Kshitij Tomar">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Mukta+Malar:400,500,600|Alfa+Slab+One|Noto+Sans:400,600|Shrikhand|Permanent+Marker|Coiny" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+
+    <style type="text/css">
+    body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: 'Mukta Malar', sans-serif;
+  }
+
+  .section-title{
+      color: #006266;
+      /*font-family: 'Shrikhand', sans-serif;*/
+      font-family:'Montserrat', sans-serif;
+      font-weight: 600;
+      font-style: bold;
+      margin-bottom: 30px;
+  }
+
+  .section-title h1{
+      font-size: 32px;
+  }
+    .section-title h1 {
+        text-decoration: none; 
+        position: relative; 
+    }   
+
+    .section-title h1:after {
+        position: absolute;
+        content: '';
+        height: 2px;
+        bottom: -10px; 
+        margin: 0 auto;
+          left: 0;
+        right: 0;
+          width: 100px;
+          background: green;
+          
+          /* optional animation */
+          -o-transition:.5s;
+          -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+    }
+     
+
+     /* optional hover classes used with anmiation */
+    .section-title h1:hover:after {
+        width: 200px;
+        background: orange;
+    }
+    .section-title h1{
+      font-size: 32px;
+    }
+
+    .section-title img{
+      width: 90px; 
+      height:70px ;
+      margin: -30px 0 -20px 0;
+    }
+/*
+    .designh1:before, .designh1:after {
+      background: #e1e1e1 none repeat scroll 0 0;
+      content: "";
+      margin: 45px 0 0 20px;
+      height: 1px;
+      position: absolute;
+      width: 100px;
+    }
+    .designh1:after {
+      background: #F79F1F none repeat scroll 0 0;
+      margin: 44px 0 0 -85px;
+      height: 3px;
+      width: 30px;
+    }
+    */
+
+
+
+
+    /**************HEADER*************/
+    #Header{
+    	height:130px;
+    }
+    #top_title{
+    	padding: 0 0 0 40px;
+    	font-size: 54px;
+    	display: inline-block;
+    	text-align: left;
+    	/*font-family: 'Noto Sans', cursive;*/
+    	font-weight: 600;
+    }
+
+    #top_slogan{
+    	margin-top: -20px;    
+    	padding: 0 0 0 40px;
+    	font-size: 24px;
+    	display: inline-block;
+    	text-align: left;
+    	font-family: 'Noto Sans', cursive;
+    }
+    #top_logo{
+    	width:180px; height:119px; padding: 10px; overflow: hidden;
+    }
+
+    #top_logo img{
+    	height:110px;
+    }
+
+    @media only screen and (max-width: 1400px) {
+    	#top_title{
+    		padding: 0px 0 0 80px;
+    		font-size: 54px;
+    	}
+    	#top_slogan{
+    		padding: 0 0 0 80px;
+    		font-size: 24px;
+    	}
+    }
+    @media only screen and (max-width: 992px) {
+    	#top_title{
+    		padding: 15px 0 0 30px;
+    		font-size: 32px;
+    	}
+    	#top_slogan{
+    		padding: 15px 0 0 30px;
+    		font-size: 20px;
+    	}
+    }
+    @media only screen and (max-width: 768px) {
+    	#top_title{
+    		padding: 10px 0 0 0px;
+    		font-size: 36px;
+    	}
+    	#top_slogan{
+    		padding: 0 0 0 0px;
+    		font-size: 24px;
+    	}
+    }
+    @media only screen and (max-width: 550px) {
+    	#top_title{
+    		padding: 15px 0 0 10px;
+    		font-size: 36px;
+    	}
+    	#top_slogan{
+    		padding: 0 0 0 10px;
+    		font-size: 24px;
+    	}
+    }
+    @media only screen and (max-width: 478px) {
+    	#top_title{
+    		padding: 20px 0 0 30px;
+    		font-size: 24px;
+    	}
+    	#top_slogan{
+    		padding: 0 0 0 30px;
+    		font-size: 14px;
+    	}
+    	#top_logo{
+    		margin-left: -20px;
+    	}
+    }
+    /*********LINKS*********/
+    .fa {
+    	padding: 10px;
+    	font-size: 20px;
+    	width: 40px;
+    	text-align: center;
+    	text-decoration: none;
+    	margin: 5px 2px;
+    	border-radius: 50%;
+    	background: #3B5998;
+    	color: white;
+    }
+    .fa:hover{
+    	transform: translateY(-3px) scale(1.02);
+    	text-decoration: none;
+    	color:white;
+    }
+    .linkis .fa:hover{
+    	transform: translateY(-3px) scale(1.02);
+    	background: #f7cb2e;
+    	text-decoration: none;
+    	color: black;
+    	text-shadow: 2px 2px 5px white;
+    }
+    .fa-facebook {
+    	background: #3B5998;
+    	color: white;
+    }
+    .link_icons
+    {      
+
+    	text-decoration: none;
+    	text-align: center;
+
+    }
+    .link_icons_inside{
+    	display: inline-block;
+    	text-decoration: none;
+    	border: 1px solid black;
+    	padding: 0 10px;
+    }
+
+    /*********nav bar***********/
+    .navbar_ks{
+    	margin-bottom: 0; 
+    	border-radius: 0; 
+    }
+    .navbar-inverse {
+        background-color: #444;
+    }
+    .navbar-inverse .navbar-brand{
+        color: #ddd;
+    }
+    .navbar-inverse .navbar-nav li a.dropdown-toggle {
+        color: #ddd;
+    }
+    .navbar_ks li a{
+    	font-size: 16px;
+    }
+
+    .affix {
+    	top: 0;
+    	width: 100%;
+    	z-index: 9999 !important;
+    }
+
+    .affix + .slider_Carousel{
+    	padding-top: 130px;
+    }
+
+    /********Carousel Styling********/
+    .slider_Carousel{
+    	background: #fff; 
+    	color: #fff;
+    }
+    .slider_Carousel .carousel-inner{
+    	/*background: #222; */
+    	color: #fff;
+    }
+    .slide1{
+        background: url('content/images/slider/Join swaraj.jpg') no-repeat;
+        /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(255,255,0,0.5) 80%, rgba(255,255,0,1) 100%), url('content/images/slider/Join swaraj.jpg') no-repeat;*/
+    	height: 400px;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: contain;
+    }
+    .slide2{
+        background: url('content/images/slider/Photo2-Slider.jpg') no-repeat;
+    	/*background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(255,255,0,0.3) 59%, rgba(255,255,0,0.5) 100%), url('content/images/slider/Photo2-Slider.jpg') no-repeat;*/
+    	/*background-image: url('');*/
+    	height: 400px;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: contain;
+    }
+    .slide3{
+        background: url('content/images/slider/Photo3_Slider.jpg') no-repeat;
+    	/*background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(255,255,0,0.3) 59%, rgba(255,255,0,0.5) 100%), url('content/images/slider/Photo3_Slider.jpg') no-repeat;*/
+    	height: 400px;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: contain;
+    }
+    .slide4{
+        background: url('content/images/slider/Photo4-Slider.jpg') no-repeat;
+    	/*background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(255,255,0,0.3) 59%, rgba(255,255,0,0.5) 100%), url('content/images/slider/Photo4-Slider.jpg') no-repeat;*/
+    	height: 400px;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: contain;
+    }
+    .slide5{
+        background: url('content/images/slider/Photo5-Slider.jpg') no-repeat;
+    	/*background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(255,255,0,0.3) 59%, rgba(255,255,0,0.5) 100%), url('content/images/slider/Photo5-Slider.jpg') no-repeat;*/
+    	height: 400px;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: contain;
+    }
+    .slide6{
+        background: url('content/images/slider/Photo6-Slider.jpg') no-repeat;
+    	/*background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(255,255,0,0.3) 59%, rgba(255,255,0,0.5) 100%), url('content/images/slider/Photo6-Slider.jpg') no-repeat;*/
+    	height: 400px;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: contain;
+    }
+    .slide7{
+        background: url('content/images/slider/Photo7-Slider.jpg') no-repeat;
+    	/*background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(255,255,0,0.3) 59%, rgba(255,255,0,0.5) 100%), url('content/images/slider/Photo7-Slider.jpg') no-repeat;*/
+    	height: 400px;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: contain;
+    }
+    .slide8{
+        background: url('content/images/slider/Photo8-Slider.jpg') no-repeat;
+    	/*background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(255,255,0,0.3) 59%, rgba(255,255,0,0.5) 100%), url('content/images/slider/Photo8-Slider.jpg') no-repeat;*/
+    	height: 400px;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: contain;
+    }
+    .slide9{
+        background: url('content/images/slider/LastPhoto-Slider.jpg') no-repeat;
+    	/*background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(255,255,0,0.3) 59%, rgba(255,255,0,0.5) 100%), url('content/images/slider/LastPhoto-Slider.jpg') no-repeat;*/
+    	height: 400px;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: contain;
+    }
+    .carousel-caption h1{
+    	font-size: 4em;
+    	font-family: 'Pacifico', cursive;
+    	padding-bottom: .4em;
+    }
+    .carousel-caption p{
+    	font-size: 2em;
+    }
+    .paddingtoright{
+    	padding:0;
+    	margin:0;
+    	padding-right: 30px;
+    }
+    @media only screen and (max-width: 768px) {
+    	.paddingtoright{padding-right: 0;}
+    }
+    .lightblue{
+        background: #ef6f0b;
+    	/*background: #4576C2;*/
+    }
+    .darkblue{
+        background: #ea0;
+    	/*background: #556680;*/
+    }
+    .blue_card{
+    	color: #fff;
+    	width: 100%;
+    	height: 100%;
+    	margin: 20px 0; 
+    	padding: 10px 10px 0 10px;
+    }
+    .blue_card:hover{
+    	opacity: 0.8;
+    }
+    .card_p_center{
+    	margin: 0 ; 
+    	padding: 10px 0;
+    	text-align: center;
+    }
+
+    .fa_carousel{
+    	padding: 0;
+    	font-size: 100px;
+    	width: auto;
+    	text-align: center;
+    	text-decoration: none;
+    	margin: 0;
+    	border-radius: 0;
+    	background: none;
+    	color: white;
+    }
+
+    /***************ABOUT*************/
+    .about{
+        background: #f2f2f2;
+    	/*background: #F0E68C;*/
+    	/*background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/8b/ICalamus_feather_512x512.png");*/
+    	/*background-size: 30% ;*/
+    	/*background-blend-mode: overlay ; */
+    	padding: 30px 20px 50px 20px;
+    	/*background-repeat: no-repeat;*/
+    	/*background-position: right top;*/
+    }
+    @media only screen and (max-width: 1200px) {
+    	.about{background-size: 45%;  }
+    }
+    @media only screen and (max-width: 992px) {
+    	.about{background-size: 80%;  }
+    }
+    @media only screen and (max-width: 768px) {
+    	.about{background-size: 100%;  }
+    }
+    @media only screen and (max-width: 550px) {
+    	.about{background-size: 120%; background-position: center;}
+    }
+    @media only screen and (max-width: 478px) {
+    	.about{background-size: 120%; background-position: center;}
+    }
+
+    .about p, .about ol li{
+    	font-size: 17px;
+    }
+
+
+    @media only screen and (max-width: 550px) {
+        .blue_card p{ 
+            font-size: 12px; 
+        }
+    }
+
+    /*************PRESS**************/
+    .press{
+    	padding: 30px;
+    }
+    .topleft {
+    	position: absolute;
+    	top: 5px;
+    	left: 20px;
+    	padding:5px 20px;
+    	font-size: 16px;
+    	color:#fff;
+    	background: #efaf40;
+    }
+    .thumbnail:hover .topleft{
+    	background: #f29b04;
+    }
+    /*************CURRENT**************/
+    .current_news{
+    	background: #d8d8d8;
+    	padding: 30px;
+    }
+
+    /*************PRESS**************/
+    .leader_speech{
+    	padding: 30px;
+    }
+    /*************CURRENT**************/
+    .latest_news{
+    	background: #d8d8d8;
+    	padding: 30px;
+    }
+
+    /**************slogan_of_party********/
+    #slogan_of_party{
+    	background-image: url('http://1.bp.blogspot.com/--x3EMgLomaY/VCOQTAXWq8I/AAAAAAAAAME/IdxkXc48Qo8/s1600/107409_Indian-Flag-Wallpapers_1600x1216%2B(1).jpg');
+    	height: 250px;
+    	background-attachment: fixed;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: cover;
+    	color:#fff;
+    }
+    #slogan_of_party h1{
+    	font-size: 50px; 
+    	font-family: 'Bungee Inline', cursive; 
+    	text-shadow: 2px 2px 4px #000000;
+    }
+
+    @media only screen and (max-width: 768px) {
+    	#slogan_of_party{
+    		height: auto;
+    		padding-bottom: 20px;
+    	}
+    	#slogan_of_party{
+    		height: auto;
+    		padding-bottom: 20px;
+    	}
+    	#slogan_of_party h1{
+    		margin-top: 0;
+    		font-size: 50px; 
+    	}
+    }
+
+    /**************VIDEOS********/
+    .videos{
+        background: #f1f1f1;
+    	/*background: #F0E68C;*/
+    	/*background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/8b/ICalamus_feather_512x512.png");*/
+    	/*background-size: 70% ;*/
+    	/*background-blend-mode: overlay ; */
+    	padding: 30px 20px 50px 20px;
+    	/*background-repeat: no-repeat;*/
+    	background-position: right top;
+    }
+    #videos iframe{
+    	width:368px;
+    	height:207px;
+    }
+    @media only screen and (max-width: 1200px) {
+    	.videos{background-size: 60%;  }
+    	#videos iframe{
+    		width:330px;
+    	}
+    }
+    @media only screen and (max-width: 992px) {
+    	.videos{background-size: 80%;  }
+    	#videos iframe{
+    		width:330px;
+    	}
+    }
+    @media only screen and (max-width: 768px) {
+    	.videos{background-size: 100%;  }
+    	#videos iframe{
+    		width:330px;
+    	}
+    }
+    @media only screen and (max-width: 550px) {
+    	.videos{background-size: 120%; background-position: center;}
+    	#videos iframe{
+    		width:330px;
+    	}
+    }
+    @media only screen and (max-width: 478px) {
+    	.videos{background-size: 120%; background-position: center;}
+    	#videos iframe{
+    		width:330px;
+    	}
+    }
+    .single_video{
+    	padding:10px 0;
+    }
+
+    .single_video_leader{
+    	padding:10px;
+    }
+
+
+    /**************GALLERY********/
+    .gallery{ 
+    	padding: 30px 20px 50px 20px;
+    }
+
+    .gallery-container h1 {
+    	text-align: center;
+    	margin-top: 70px;
+    	font-family: 'Droid Sans', sans-serif;
+    	font-weight: bold;
+    	color: #58595a;
+    }
+
+    .gallery-container p.page-description {
+    	text-align: center;
+    	margin: 30px auto;
+    	font-size: 18px;
+    	color: #85878c;
+    }
+
+    .tz-gallery {
+    	padding: 40px;
+    }
+
+    .tz-gallery .thumbnail {
+    	transition: 0.15s ease-in-out;
+    	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+    }
+
+    .tz-gallery .thumbnail:hover {
+    	transform: translateY(-10px) scale(1.02);
+    	opacity: 0.9;
+    }
+
+
+    /************TEAM***************/
+
+    #team-members h5{ 
+    	font-size: 24px; 
+    }
+    #team-members .carousel2{
+    	margin-top: 25px;
+    }
+    #team-members .carousel-inner img{
+    	margin-top: 15px;
+    	max-width:170px; 
+    	max-height:170px; 
+    	width:170px; 
+    	height:170px; 
+    	box-shadow: 0 0 15px grey;
+    }
+
+    /* override position and transform in 3.3.x */
+    #team-members .carousel-inner .item.left.active {
+    	transform: translateX(-33%);
+    }
+    #team-members .carousel-inner .item.right.active {
+    	transform: translateX(33%);
+    }
+
+    #team-members .carousel-inner .item.next {
+    	transform: translateX(33%)
+    }
+    #team-members .carousel-inner .item.prev {
+    	transform: translateX(-33%)
+    }
+
+    #team-members .carousel-inner .item.right,
+    #team-members .carousel-inner .item.left { 
+    	transform: translateX(0);
+    }
+
+    #team-members .carousel-inner { margin: auto; width: 80%; }
+    /*.carousel-control.left,.carousel-control.right {background-image:none;}*/
+
+    #left_icon_carousel{
+    	background: none;
+    }
+    #right_icon_carousel{
+    	background: none;
+    }
+    #left_icon_carousel i{
+    	padding:30px;
+    	background: #555;
+    	border: 2px solid #555;
+    	width:  95px;
+    	height: 95px;
+    	border-radius: 50%;
+    	margin-left: -100px; 
+    	margin-top: -80px;
+    }
+    #right_icon_carousel i{
+    	padding:30px;
+    	background: #555;
+    	border: 2px solid #555;
+    	width:  95px;
+    	height: 95px;
+    	border-radius: 50%;
+    	margin-right: -100px; 
+    	margin-top: -80px;
+    }
+    #team-section .carousel-inner { margin: auto; width: 80%; }
+
+
+    @media only screen and (max-width: 768px) {
+
+    	.carousel-inner img{
+    		max-width:170px; 
+    		box-shadow: 0 0 15px grey;
+    	}
+
+    	#team-members .carousel-inner .item.left.active {
+    		transform: translateX(-100%);
+    	}
+    	#team-members .carousel-inner .item.right.active {
+    		transform: translateX(100%);
+    	}
+
+    	#team-members .carousel-inner .item.next {
+    		transform: translateX(100%)
+    	}
+    	#team-members .carousel-inner .item.prev {
+    		transform: translateX(-100%)
+    	}
+
+    	#team-members .carousel-inner .item.right,
+    	#team-members .carousel-inner .item.left { 
+    		transform: translateX(0);
+    	}
+    	#left_icon_carousel{  
+    		margin-left: 60px;  
+    	}
+    	#right_icon_carousel i{
+    		margin-right: -40px; 
+    	}
+    	#left_icon_carousel i{
+    		width:  85px;
+    		height: 85px;
+    	}
+    	#right_icon_carousel i{
+    		width:  85px;
+    		height: 85px;
+    	}
+    }
+
+
+    /*****************Footer**************/
+    .FOOTER{
+    	padding: 30px ;
+    	background: #2b3a42; 
+    	color: #fff;
+    }
+    #yellow_title{
+    	font-size: 20px;
+    }
+</style>
+
+<meta name="author" content="Kshitij Tomar">
+
+</head>
+
+<body>
+
+	<section id="Header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-1 col-md-1 col-sm-2 col-xs-3 ">
+					<div id="top_logo">
+						<a href="index.html"><img class="animated wow fadeInLeft" src="content/images/SI Logo.jpg"></a>
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-6 col-xs-9">
+					<a href="index.html">
+						<h2 class="animated wow fadeInDown" id="top_title">स्वराज <!-- SWARAJ --> INDIA</h2><br>
+						<h2 class="animated wow fadeInDown" id="top_slogan">सिर्फ पार्टी नहीं, मिशन है।</h2>
+					</a>
+				</div>
+				<div class="col-lg-4 col-lg-3 col-md-3 hidden-xs text-center animated wow fadeInRight" style="margin-top: 20px;">
+					<a id="top_login_signup" href="#">
+						<div style="padding: 5px;"><strong>
+							<span class="glyphicon glyphicon-user"> </span>
+							LOGIN/SIGNUP
+							<span class="glyphicon glyphicon-user"> </span></strong>
+						</div>  
+					</a>
+					<div class="link_icons">
+						<div class="link_icons_inside">
+							<a href="https://www.facebook.com/swarajindiaofficial/" class="fa fa-facebook" target="_blank"></a>
+							<a href="https://twitter.com/_SwarajIndia" class="fa fa-twitter" target="_blank"></a>
+							<a href="https://www.youtube.com/swarajindia" class="fa fa-youtube-play" target="_blank"></a>
+							<a href="https://www.instagram.com/swarajindia/" class="fa fa-instagram" target="_blank"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div id="navbar_ksh">
+		<div class="container-fluid" style="padding-left: 0; padding-right: 0;">
+			<!-- <nav class="navbar_ks navbar navbar-toggleable-md navbar-inverse bg-primary row-full" data-spy="affix" data-offset-top="130"> -->
+
+				<nav class="navbar_ks navbar navbar-toggleable-md navbar-inverse" data-spy="affix" data-offset-top="130" role="navigation">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">HOME</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <!--                             <li><a href="swarajindia.org">HOME</a> -->
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="">ABOUT US<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="content.html?dc=aboutus">The Party</a></li>
+                                <li><a href="content.html?dc=aboutus#Objectives">The Objective</a></li>
+                                <li><a href="content.html?dc=aboutus#Constitution">Constitution</a></li>
+                                <li><a href="content.html?dc=aboutus#Vision">Swaraj Darshan (Hindi)</a></li>
+                                <li><a href="content.html?dc=aboutus#Vision_English">Vision Swaraj (English)</a></li>
+                                <li><a href="content.html?dc=underwork">FAQs</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="">ORGANIZATION <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="content.html?dc=pg_o_pm">Presidium</a></li>
+                                <li><a href="content.html?dc=pg_o_nem">National Executive</a></li>
+                                <li><a href="content.html?dc=pg_o_nob">National Office Bearers</a></li>
+                                <li><a href="content.html?dc=underwork#NationalTeamsMembers">National Teams Members</a></li>
+                                <li><a href="content.html?dc=underwork#Committees">Committees</a></li>
+                                <li><a href="content.html?dc=pg_o_mom">Minutes of Meetings</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="">DELHI MCD ELECTIONS <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="content.html?dc=pg_cgp">Candidate Selection Procedure</a></li>
+                                <li><a href="content.html?dc=pg_caf">Candidate Application Form</a></li>
+                                <li><a href="content.html?dc=pg_cl">Candidate List</a></li>
+                                <li><a href="content.html?dc=pg_csic">Candidate Selection Integrity Committeed</a></li>
+                                <li><a href="content.html?dc=underwork#Manifesto">Manifesto</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="">MEDIA <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html#press_current_news">Press Release</a></li>
+                                <li><a href="index.html#videos">Video Gallery</a></li>
+                                <li><a href="index.html#gallery">Image Gallery</a></li>
+                                <li><a href="index.html#leader_speech_latestnews">Leader’s Speeches</a></li>
+                                <li><a href="content.html?dc=underwork#readesopinion">Reader’s Opinion</a></li>
+                                <li role="separator" class="divider"></li>
+                                <h5 class="dropdown-header">Social Media</h5>
+                                <li><a href="https://www.facebook.com/swarajindiaofficial/" target="_blank">Facebook</a></li>
+                                <li><a href="https://twitter.com/_SwarajIndia" target="_blank">Twitter</a></li>
+                                <li><a href="https://www.youtube.com/swarajindia" target="_blank">YouTube</a></li>
+                                <li><a href="https://www.instagram.com/swarajindia/" target="_blank">Instagram</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="">DOCUMENTS <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="content.html?dc=aboutus#Constitution">Constitution</a></li>
+                                <li><a href="content.html?dc=aboutus#Vision">Swaraj Darshan (Our Vision)</a></li>
+                                <li><a href="content.html?dc=organisation#MinutesofMeetings">Minutes of Meetings</a></li>
+                                <li><a href="content.html?dc=underwork#Manifesto">MCD Manifesto</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="content.html?dc=pgkb1">Kisan Bill I</a></li>
+                                <li><a href="content.html?dc=pgkb2">Kisan Bill II</a></li>
+                                <li><a href="content.html?dc=pgkgreenpaper" target="_blank">Kisan Green Paper</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="">ENGAGE WITH US <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Online Membership</a></li>
+                                <li><a href="#">Volunteer</a></li>
+                            </ul>
+                        </li>
+                            <!-- <li class="active"><a href="#">Home</a></li>
+                            <li class="dropdown">
+                              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Page 1-1</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                              </ul>
+                            </li>
+                            <li><a href="#">Page 2</a></li> -->
+                            <!-- <li><a href="#">Page 3</a></li> -->
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active" style="border: 2px solid grey;"><a href="http://donate.swarajindia.org"><span class="glyphicon glyphicon-heart" ></span> DONATE</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-phone-alt"></span> CONTACT US<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="content.html?dc=pgcontactus" target="_blank">National Office</a></li>
+                                    <li><a href="content.html?dc=pgcontactus" target="_blank">Delhi Office</a></li>
+                                </ul>
+                            </li>        
+                        </ul>
+
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </div>
+        </div>
+
+        <!-- ****************************CONTENT********************************* -->
+        <div id="slider_Carousel_slider" class="slider_Carousel row-full">
+          <div class="container-fluid">
+             <div class="row text-center">
+                <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 ">         
+                   <!-- Carousel -->
+                   <!-- Surround everything with a div with the class carousel slide -->
+                   <div id="theCarousel" class="carousel slide animated wow fadeInLeft" data-ride="carousel">
+
+                      <!-- Define how many slides to put in the carousel -->
+                      <ol class="carousel-indicators">
+                         <li data-target="#theCarousel" data-slide-to="0" class="active"> </li >
+                         <li data-target="#theCarousel" data-slide-to="1"> </li>
+                         <li data-target="#theCarousel" data-slide-to="2"> </li>
+                         <li data-target="#theCarousel" data-slide-to="3"> </li>
+                         <li data-target="#theCarousel" data-slide-to="4"> </li>
+                         <li data-target="#theCarousel" data-slide-to="5"> </li>
+                         <li data-target="#theCarousel" data-slide-to="6"> </li>
+                         <li data-target="#theCarousel" data-slide-to="7"> </li>
+                         <li data-target="#theCarousel" data-slide-to="8"> </li>
+                     </ol >
+
+                     <!-- Define the text to place over the image -->
+                     <div class="carousel-inner">
+                         <div class="item active" >
+                            <div class ="slide1"></div>
+                            <div class="carousel-caption">
+					            	<!-- <h1>Amazing Backgrounds</h1>
+					              	<p>Thousands of Backgrounds for Free</p>
+					              	<p><a href="#" class="btn btn-default btn-sm">Get them Now</a></p> -->
+					              </div>
+					          </div>
+					          <div class="item">
+					          	<div class="slide2"></div>
+					          	<div class="carousel-caption">
+		        <!--< h1>Thousands of Colors</h1>
+		        	<p>Every Color you can Imagine</p> -->
+		        </div>
+		    </div>
+		    <div class="item">
+		    	<div class="slide3"></div>
+		    	<div class="carousel-caption">
+		        <!--< h1>Thousands of Colors</h1>
+		        	<p>Every Color you can Imagine</p> -->
+		        </div>
+		    </div>
+		    <div class="item">
+		    	<div class="slide4"></div>
+		    	<div class="carousel-caption">
+		        <!--< h1>Thousands of Colors</h1>
+		        	<p>Every Color you can Imagine</p> -->
+		        </div>
+		    </div>
+		    <div class="item">
+		    	<div class="slide5"></div>
+		    	<div class="carousel-caption">
+		        <!--< h1>Thousands of Colors</h1>
+		        	<p>Every Color you can Imagine</p> -->
+		        </div>
+		    </div>
+		    <div class="item">
+		    	<div class="slide6"></div>
+		    	<div class="carousel-caption">
+		        <!--< h1>Thousands of Colors</h1>
+		        	<p>Every Color you can Imagine</p> -->
+		        </div>
+		    </div>
+		    <div class="item">
+		    	<div class="slide7"></div>
+		    	<div class="carousel-caption">
+		        <!--< h1>Thousands of Colors</h1>
+		        	<p>Every Color you can Imagine</p> -->
+		        </div>
+		    </div>
+		    <div class="item">
+		    	<div class="slide8"></div>
+		    	<div class="carousel-caption">
+		        <!--< h1>Thousands of Colors</h1>
+		        	<p>Every Color you can Imagine</p> -->
+		        </div>
+		    </div>
+		    <div class="item">
+		    	<div class="slide9"></div>
+		    	<div class="carousel-caption">
+		        <!--< h1>Thousands of Colors</h1>
+		        	<p>Every Color you can Imagine</p> -->
+		        </div>
+		    </div>
+          <!-- <div class="item">
+          <div class="slide3"></div>
+          <div class="carousel-caption">
+          <h1>Amazing Illustrations</h1>
+          <p>And they are All Free</p>
+          </div>
+      </div> -->
+  </div>
+
+  <!-- Set the actions to take when the arrows are clicked -->
+  <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+  	<span class="glyphicon glyphicon-chevron-left"> </span>
+  </a>
+  <a class="right carousel-control" href="#theCarousel" data-slide="next">
+  	<span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+</div>
+<div class="clearfix visible-sm"></div>
+
+<div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 text-center animated wow fadeInRight">  
+	<a href="#">
+		<div class="lightblue blue_card">
+			<i class="fa fa_carousel fa-address-card-o" style=""></i>
+			<div class="card_p_center">
+				<p>ONLINE MEMBERSHIP</p>
+			</div>
+		</div>
+	</a>
+</div>
+<div class="clearfix visible-sm"></div>
+
+<div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 text-center animated wow fadeInRight">  
+	<a href="#">
+		<div class="darkblue blue_card">         
+            <img src="content/images/slider/volunteer.png" style="height:100px;" >   
+			<!-- <i class="fa fa_carousel fa-bookmark-o" style=""></i> -->
+			<div class="card_p_center">
+				<p>VOLUNTEER</p> 
+			</div>   
+		</div>
+	</a>
+</div>
+<div class="clearfix visible-sm"></div>
+<div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 text-center animated wow fadeInRight">  
+	<a href="https://www.iconfinder.com/icons/753696/award_chief_leader_manager_volunteer_win_winner_icon#size=128">
+		<div class="darkblue blue_card"> 
+        <img src="content/images/slider/donation.png" style="height:100px;" >    
+			<!-- <i class="fa fa_carousel fa-gift" style=""></i> -->
+			<div class="card_p_center">
+				<p>MAKE A DONATION</p>
+			</div>
+		</div>
+	</a>
+</div>
+<div class="clearfix visible-sm"></div>
+
+<div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 text-center animated wow fadeInRight">  
+	<a href="index.html#press_current_news">
+		<div class="lightblue blue_card">          
+			<i class="fa fa_carousel fa-bullhorn" style=""></i>
+			<div class="card_p_center">
+				<p>PRESS RELEASES</p> 
+			</div>
+		</div>
+	</a> 
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- ****************ABOUT*************** -->
+<section id="about">
+	<div class="about row-full">
+		<div class="container">
+			<div class="row animated wow fadeInUp">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">         
+					<div class="section-title text-center">
+						<h1>ABOUT US</h1>
+						<!-- <img src="http://moziru.com/images/swirl-clipart-underline-10.png" > -->
+					</div>
+					<p>The Party aims to attain Swaraj for and within our country, our society, our globe and our selves. For us Swaraj is rule of the self and rule over one’s self, freedom from all forms of dominance and freedom for self-realization at every level of human life, so that we have:</p>
+					<ol type="a">
+						<li>&nbsp;&nbsp;Democratic governance that is transparent, accountable, participatory and de-centred;</li>
+						<li>&nbsp;&nbsp;Sustainable economic development that encourages human enterprise and ensures well- being for all;</li>
+						<li>&nbsp;&nbsp;Just society that achieves true harmony across divisions of gender, caste, class, race and religion, etc. based on equality;</li>
+						<li>&nbsp;&nbsp;Education, knowledge and culture that fosters human understanding, enriches diverse cultural heritage of humankind and promotes quest for truth;</li>
+						<li>&nbsp;&nbsp;Global peace involving harmonious existence among nations and states, humans, other living beings and nature; and</li>
+						<li>&nbsp;&nbsp;Human happiness that comes from individual liberty, freedom of thought and autonomy in ideas and deep self-awareness and self-transformation. </li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<!-- ****************PRESS RELEASES and CURRENT NEWS*************** -->
+<section id="press_current_news">
+	<div class="row-full">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 press"> 
+
+					<div class="row">
+						<div class="section-title text-center animated wow fadeInDown">
+							<h1>PRESS RELEASES</h1>
+							<!-- <img src="http://moziru.com/images/swirl-clipart-underline-10.png" > -->
+						</div>
+					</div>
+
+					<div class="row animated wow fadeInLeft">
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<div class="thumbnail">
+								<img src="content\images\pn_22feb2018_image1.jpeg" alt="..." style="height:200px;">
+								<div class="topleft">22nd February, 2018</div>
+								<div class="caption">
+									<div style="height:200px; overflow: hidden; margin-bottom: 10px;">
+
+										<h3 style="font-family:Noto Sans">लैंडपूलिंग योजना में किसानों के लिए 5 एकड़ की सीमा ख़त्म करो - स्वराज इंडिया</h3>
+										<p style="font-family:Noto Sans">5000 किसानों के हस्ताक्षर के साथ पार्टी की दिल्ली देहात मोर्चा ने डीडीए में दर्ज़ कराई आपत्ति, लैंड पूलिंग नीति को किसान हितैषी बनाकर जल्द से जल्द किया जाए लागू </p>
+									</div>
+									<p>
+										<a href="#" class="btn btn-warning " role="button">
+											<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+											Swaraj India
+										</a> 
+										<a href="content.html?dc=pn22feb2018" class="btn btn-warning" role="button">
+											<span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+											Read More
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<div class="thumbnail">
+								<img src="content\images\pn_20feb2018_image1.jpg" alt="..." style="height:200px; width: 100% ">
+								<div class="topleft">20th February, 2018</div>
+								<div class="caption">
+									<div style="height:200px; overflow: hidden; margin-bottom: 10px;">
+										<h3>"Sarkar or a Circus, Mr. Kejriwal?"</h3>
+										<p>Swaraj India has termed the ongoing controversy between Aam Aadmi Party and Delhi Chief Secretary as shameful and avoidable. Party leader Anupam said that it is not the first time that such an incident has come to light and that Mr. Kejriwal seems to </p>
+									</div>
+									<p> 
+										<a href="#" class="btn btn-warning " role="button">
+											<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+											Swaraj India
+										</a>
+										<a href="content.html?dc=pn20feb2018" class="btn btn-warning" role="button">
+											<span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+											Read More
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<div class="thumbnail">
+								<img src="content\images\pn_19feb2018_image1.jpg" alt="..." style="height:200px; width: 100% ">
+								<div class="topleft">19th February, 2018</div>
+								<div class="caption">
+									<div style="height:200px; overflow: hidden; margin-bottom: 10px;">
+										<h3>Swaraj India exposes rampant corruption in Delhi govt's Transport department.</h3>
+										<p>FIR filed against govt officials (Transport Department's MLO and MVI) on court orders. Case based on fraudulent permit transfer of a deceased auto driver through forged papers. No action by Delhi Police or Delhi government yet despite FIR being registered</p>
+									</div>
+									<p>
+										<a href="#" class="btn btn-warning " role="button">
+											<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+											Swaraj India
+										</a> 
+										<a href="content.html?dc=pn19feb2018" class="btn btn-warning" role="button">
+											<span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+											Read More
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<a href="content.html?dc=pnall" class="btn btn-lg btn-warning" style="float:right;"> View older Press Releases > </a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 current_news"> 
+					<div class="section-title text-center animated wow fadeInDown">
+						<h1>FACEBOOK STREAM</h1>
+						<!-- <img src="http://moziru.com/images/swirl-clipart-underline-10.png" > -->
+					</div>
+
+					<div class="news-content animated wow fadeInRight text-center" style="height:570px; margin:0 auto;">
+						<!-- <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fswarajindiaofficial&amp;width&amp;height=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:100%; height:570px; background: white; float:center; " allowTransparency="true"></iframe> -->
+                            <iframe allowtransparency="true" frameborder="0" scrolling="no" src="https://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/swarajindiaofficial/&amp;width=350&amp;height=600&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=true&amp;appId=607545139264444" style="border:none; overflow:hidden; height:570px; width:350px; text-align:center;"></iframe>
+                            <!-- <div class="fb-page" data-href="https://www.facebook.com/swarajindiaofficial/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/swarajindiaofficial/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/swarajindiaofficial/">Swaraj India</a></blockquote></div> -->
+
+
+          		<!-- <div class="media">
+          			<div class="media-left media-top">
+          				<a href="#">
+          					<img class="media-object" src="http://www.swarajindia.org/extra-images/latest-wrk-05.jpg" style="width:100px;" alt="...">
+          				</a>
+          			</div>
+          			<div class="media-body">
+          				<h4 class="media-heading">Awesome Veggie Burger</h4>
+          				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          			</div>
+          		</div> -->
+
+          	</div>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+
+
+<!--*****************************LEADER SPEECH AND LATEST NEWS**************** -->
+
+<section id="leader_speech_latestnews">
+	<div class="row-full">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 leader_speech"> 
+
+					<div class="row">
+						<div class="section-title text-center animated wow fadeInDown">
+							<h1>LEADERS' SPEECHES</h1>
+							<!-- <img src="http://moziru.com/images/swirl-clipart-underline-10.png" > -->
+						</div>
+					</div>
+
+					<div class="row animated wow fadeInLeft">
+						<!-- <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<div class="thumbnail">
+								<img src="http://www.swarajindia.org/extra-images/latest-wrk-02.jpg" alt="...">
+								<div class="topleft">2nd January, 2017</div>
+								<div class="caption">
+									<h3>Yogender Yadav Speaking on ‘Breaking the Borders'</h3>
+									<p>Arun Jaitley lied to the Parliament and then waited for media to shift attention from his promise of MSP. The media might forget, the farmers will not. Struggle is the way forward.</p>
+									<p>
+										<a href="#" class="btn btn-warning " role="button">
+											<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+											Swaraj India
+										</a> 
+										<a href="#" class="btn btn-warning" role="button">
+											<span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+											Read More
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<div class="thumbnail">
+								<img src="http://www.swarajindia.org/extra-images/latest-wrk-07.jpg" alt="...">
+								<div class="topleft">2nd January, 2017</div>
+								<div class="caption">
+									<h3>Yogender Yadav Speaking on ‘Breaking the Borders'</h3>
+									<p>Arun Jaitley lied to the Parliament and then waited for media to shift attention from his promise of MSP. The media might forget, the farmers will not. Struggle is the way forward.</p>
+									<p>
+										<a href="#" class="btn btn-warning " role="button">
+											<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+											Swaraj India
+										</a> 
+										<a href="#" class="btn btn-warning" role="button">
+											<span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+											Read More
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<div class="thumbnail">
+								<img src="http://www.swarajindia.org/extra-images/latest-wrk-05.jpg" alt="...">
+								<div class="topleft">2nd January, 2017</div>
+								<div class="caption">
+									<h3>Yogender Yadav Speaking on ‘Breaking the Borders'</h3>
+									<p>Arun Jaitley lied to the Parliament and then waited for media to shift attention from his promise of MSP. The media might forget, the farmers will not. Struggle is the way forward.</p>
+									<p>
+										<a href="#" class="btn btn-warning " role="button">
+											<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+											Swaraj India
+										</a> 
+										<a href="#" class="btn btn-warning" role="button">
+											<span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+											Read More
+										</a>
+									</p>
+								</div>
+							</div>
+						</div> -->
+
+
+
+						<div class="row animated wow fadeInUp text-center"> 
+
+
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 single_video_leader" >
+								<iframe src="https://www.youtube.com/embed/jOPmTG4Y_X0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							</div>
+
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 single_video_leader" >
+								<iframe src="https://www.youtube.com/embed/T6VpPz39ihE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							</div>
+
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 single_video_leader" >
+								<iframe src="https://www.youtube.com/embed/NdshDbUps6U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							</div>
+
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 single_video_leader" >
+								<iframe src="https://www.youtube.com/embed/2i4yHHZUPCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							</div>
+
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 single_video_leader" >
+								<iframe src="https://www.youtube.com/embed/Zdx22YiWQno" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							</div>
+
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 single_video_leader" >
+								<iframe src="https://www.youtube.com/embed/dl0QHR0cXMg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							</div>	
+						</div>
+
+
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 latest_news"> 
+					<div class="section-title text-center animated wow fadeInDown">
+						<h1>TWITTER STREAM</h1>
+						<!-- <img src="http://moziru.com/images/swirl-clipart-underline-10.png" > -->
+					</div>
+          <!-- <marquee id='scroll_news' style="color: #FFFFFF" direction="up" height="300px" width = "100%" SCROLLDELAY=500
+          behaviour="slide" loop=3>
+          <div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();"> -->
+
+
+          	<div class="news-content animated wow fadeInRight text-center" style="height:570px; margin:0 auto;">
+          		<a class="twitter-timeline" data-height="600" data-width="100%" href="https://twitter.com/_SwarajIndia?ref_src=twsrc%5Etfw">Tweets by _SwarajIndia</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          	</div>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+
+
+
+
+<!--*****************************SLOGAN OF PARTY GOES HERE**************** -->
+<section id="slogan_of_party">
+	<div class="row-full">
+		<div class="container-fluid text-center">
+			<br><br>
+			<h1 style="font-size: 50px; font-family: 'Noto Sans', cursive; text-shadow: 2px 2px 4px #000000;"><i>सिर्फ पार्टी नहीं, मिशन है। <!-- लड़ेंगे! जीतेंगे! --></i></h1>
+
+			<a href="http://donate.swarajindia.org" class="btn btn-lg btn-success btn-round">DONATE NOW</a>
+		</div>
+	</div>
+</section>
+
+
+
+
+<!--*****************************VIDEOS**************** -->
+<section id="videos">
+	<div class="videos">
+		<div class="container-fluid">
+			<div class="row animated wow fadeInUp text-center">    
+
+				<div class="section-title">
+					<h1>VIDEOS</h1>
+					<!-- <img src="http://moziru.com/images/swirl-clipart-underline-10.png" > -->
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 single_video">
+					<iframe src="https://www.youtube.com/embed/jOPmTG4Y_X0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 single_video">
+					<iframe src="https://www.youtube.com/embed/T6VpPz39ihE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 single_video">
+					<iframe src="https://www.youtube.com/embed/NdshDbUps6U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 single_video">
+					<iframe src="https://www.youtube.com/embed/2i4yHHZUPCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 single_video">
+					<iframe src="https://www.youtube.com/embed/Zdx22YiWQno" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 single_video">
+					<iframe src="https://www.youtube.com/embed/dl0QHR0cXMg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 single_video">
+					<iframe src="https://www.youtube.com/embed/jeg_mpH83IE?start=1302s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 single_video">
+					<iframe src="https://www.youtube.com/embed/7QVxU9XiyXE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+<!--*****************************GALLERY**************** -->
+<section id="gallery">
+	<div class="gallery">
+		<div class="container">
+			<div class="row animated wow fadeInUp">    
+
+				<div class="section-title text-center">
+					<h1>IMAGE GALLERY</h1>
+					<!-- <img src="http://moziru.com/images/swirl-clipart-underline-10.png" > -->
+				</div>
+				<div class="container gallery-container">
+					<div class="tz-gallery">
+						<div class="row">
+
+							<div class="col-lg-12">
+
+								<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-caption="Swaraj India" data-image="http://opasindia.co.in/party/wp-content/uploads/2018/02/a1.jpg" data-target="#image-gallery">
+										<img class="img-responsive" src="http://opasindia.co.in/party/wp-content/uploads/2018/02/a1.jpg" alt="A alt text">
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-caption="Swaraj India" data-image="http://opasindia.co.in/party/wp-content/uploads/2018/02/a2.jpg" data-target="#image-gallery">
+										<img class="img-responsive" src="http://opasindia.co.in/party/wp-content/uploads/2018/02/a2.jpg" alt="A alt text">
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-caption="Swaraj India" data-image="http://opasindia.co.in/party/wp-content/uploads/2018/02/a3.jpg" data-target="#image-gallery">
+										<img class="img-responsive" src="http://opasindia.co.in/party/wp-content/uploads/2018/02/a3.jpg" alt="A alt text">
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-caption="Swaraj India" data-image="http://opasindia.co.in/party/wp-content/uploads/2018/02/a4.jpg" data-target="#image-gallery">
+										<img class="img-responsive" src="http://opasindia.co.in/party/wp-content/uploads/2018/02/a4.jpg" alt="A alt text">
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-caption="Swaraj India" data-image="http://opasindia.co.in/party/wp-content/uploads/2018/02/a5.jpg" data-target="#image-gallery">
+										<img class="img-responsive" src="http://opasindia.co.in/party/wp-content/uploads/2018/02/a5.jpg" alt="A alt text">
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-caption="Swaraj India" data-image="http://opasindia.co.in/party/wp-content/uploads/2018/02/a6.jpg" data-target="#image-gallery">
+										<img class="img-responsive" src="http://opasindia.co.in/party/wp-content/uploads/2018/02/a6.jpg" alt="A alt text">
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-caption="Swaraj India" data-image="http://opasindia.co.in/party/wp-content/uploads/2018/02/a7.jpg" data-target="#image-gallery">
+										<img class="img-responsive" src="http://opasindia.co.in/party/wp-content/uploads/2018/02/a7.jpg" alt="A alt text">
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-caption="Swaraj India" data-image="http://opasindia.co.in/party/wp-content/uploads/2018/02/a8.jpg" data-target="#image-gallery">
+										<img class="img-responsive" src="http://opasindia.co.in/party/wp-content/uploads/2018/02/a8.jpg" alt="A alt text">
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-caption="Swaraj India" data-image="http://opasindia.co.in/party/wp-content/uploads/2018/02/a9.jpg" data-target="#image-gallery">
+										<img class="img-responsive" src="http://opasindia.co.in/party/wp-content/uploads/2018/02/a9.jpg" alt="A alt text">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!--*****************************SLOGAN OF PARTY GOES HERE**************** -->
+
+<section id="slogan_of_party">
+	<div class="row-full">
+		<div class="container-fluid text-center">
+			<br><br>
+			<div class="col-md-8 col-sm-12 col-md-offset-2">
+				<h1 style="font-size: 30px; font-family: 'Coiny', cursive; text-shadow: 0 0 10px #000000;">Swaraj is my birth right and I shall have it
+				<div class="text-right">- Bal Gangadhar Tilak</div></h1>
+				<h2 style="font-size: 30px; font-family: 'Montserrat', cursive; text-shadow: 0 0 10px #fff; color:#666">BE PART OF THE REVOLUTION !</h2>
+				<a href="#" class="btn btn-lg btn-success btn-round">BECOME A MEMBER</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<!-- ********************************TEAM MEMBERS****************************** -->
+<section id="team-members" class="team-section animated wow fadeInUp" style="padding: 50px 20px 70px 20px;">
+	<div class="section-title text-center">
+		<h1>PRESIDIUM MEMBERS</h1>
+		<!-- <img src="http://moziru.com/images/swirl-clipart-underline-10.png" > -->
+	</div>
+	<!--Section description--><!-- 
+	<p class="grey-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi,
+	veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+-->
+<!-- Grid row -->
+<div class="row text-center">
+  <div class="col-md-10 col-md-offset-1">
+     <div class="carousel carousel2 slide" id="myCarousel2">
+        <div class="carousel-inner text-center">
+
+           <div class="item active">
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                 <div class="card card-body">
+                    <div class="avatar mx-auto my-1">
+                       <img src="content/presidiummembersphotos/Yogendra_Yadav.jpg" 
+                       class="img-rounded img-circle  img-fluid" alt="Yogendra Yadav">
+                   </div>
+                   <h5 class="font-weight-bold">
+                       <strong>Yogendra Yadav</strong>
+                   </h5>
+                   <!-- <p class="grey-text">Backend developer</p> -->
+                   <ul class="list-unstyled">
+                       <a href="https://www.facebook.com/YogendraYY/" class="icons-sm fb-ic">
+                          <i class="fa fa-facebook blue-text"> </i>
+                      </a>
+                      <a href="https://twitter.com/_yogendrayadav?lang=en" class="icons-sm tw-ic">
+                          <i class="fa fa-twitter blue-text"> </i>
+                      </a>
+                      <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+                          <i class="fa fa-envelope blue-text"> </i>
+                      </a>
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+      <div class="item">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+             <div class="card card-body">
+                <div class="avatar mx-auto my-1">
+                   <img src="content/presidiummembersphotos/Anupam Singh.jpg" 
+                   class="img-rounded img-circle  img-fluid" alt="Anupam Singh">
+               </div>
+               <h5 class="font-weight-bold">
+                   <strong>Anupam Singh</strong>
+               </h5>
+               <!-- <p class="grey-text">Backend developer</p> -->
+               <ul class="list-unstyled">
+                   <a href="https://www.facebook.com/anupamabhivyakti" class="icons-sm fb-ic">
+                      <i class="fa fa-facebook blue-text"> </i>
+                  </a>
+                  <a href="https://twitter.com/_SwarajIndia" class="icons-sm tw-ic">
+                    <i class="fa fa-twitter blue-text"> </i>
+                </a>
+                <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+                  <i class="fa fa-envelope blue-text"> </i>
+              </a>
+          </ul>
+      </div>
+  </div>
+</div>
+
+
+
+
+      <div class="item">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+             <div class="card card-body">
+                <div class="avatar mx-auto my-1">
+                   <img src="content/presidiummembersphotos/FaheemKhan.jpg" 
+                   class="img-rounded img-circle  img-fluid" alt="Anupam Singh">
+               </div>
+               <h5 class="font-weight-bold">
+                   <strong>Ahmed Faheem Khan</strong>
+               </h5>
+               <!-- <p class="grey-text">Backend developer</p> -->
+               <ul class="list-unstyled">
+                   <a href="https://www.facebook.com/anupamabhivyakti" class="icons-sm fb-ic">
+                      <i class="fa fa-facebook blue-text"> </i>
+                  </a>
+                  <a href="https://twitter.com/_SwarajIndia" class="icons-sm tw-ic">
+                    <i class="fa fa-twitter blue-text"> </i>
+                </a>
+                <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+                  <i class="fa fa-envelope blue-text"> </i>
+              </a>
+          </ul>
+      </div>
+  </div>
+</div>
+
+
+<div class="item">
+  <div class="col-md-4 col-sm-6 col-xs-12">
+     <div class="card card-body">
+        <div class="avatar mx-auto my-1">
+           <img src="content/presidiummembersphotos/Adil Mohammed.jpeg" 
+           class="img-rounded img-circle  img-fluid" alt="Adil Mohammed">
+       </div>
+       <h5 class="font-weight-bold">
+           <strong>Adil Mohammed</strong>
+       </h5>
+       <!-- <p class="grey-text">Backend developer</p> -->
+       <ul class="list-unstyled">
+           <a href="https://www.facebook.com/swarajindiaofficial/" class="icons-sm fb-ic">
+              <i class="fa fa-facebook blue-text"> </i>
+          </a>
+          <a href="https://twitter.com/_SwarajIndia" class="icons-sm tw-ic">
+              <i class="fa fa-twitter blue-text"> </i>
+          </a>
+          <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+              <i class="fa fa-envelope blue-text"> </i>
+          </a>
+      </ul>
+  </div>
+</div>
+</div>
+
+<div class="item">
+  <div class="col-md-4 col-sm-6 col-xs-12">
+     <div class="card card-body">
+        <div class="avatar mx-auto my-1">
+           <img src="content/presidiummembersphotos/Ajit Jha.jpg" 
+           class="img-rounded img-circle  img-fluid" alt="Ajit Jha.jpg">
+       </div>
+       <h5 class="font-weight-bold">
+           <strong>Ajit Jha</strong>
+       </h5>
+       <!-- <p class="grey-text">Backend developer</p> -->
+       <ul class="list-unstyled">
+           <a href="https://www.facebook.com/swarajindiaofficial/" class="icons-sm fb-ic">
+              <i class="fa fa-facebook blue-text"> </i>
+          </a>
+          <a href="https://twitter.com/_SwarajIndia" class="icons-sm tw-ic">
+              <i class="fa fa-twitter blue-text"> </i>
+          </a>
+          <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+              <i class="fa fa-envelope blue-text"> </i>
+          </a>
+      </ul>
+  </div>
+</div>
+</div>
+
+<div class="item">
+  <div class="col-md-4 col-sm-6 col-xs-12">
+     <div class="card card-body">
+        <div class="avatar mx-auto my-1">
+           <img src="content/presidiummembersphotos/Avik Saha.jpg" 
+           class="img-rounded img-circle  img-fluid" alt="Avik Saha.jpg">
+       </div>
+       <h5 class="font-weight-bold">
+           <strong>Avik Saha</strong>
+       </h5>
+       <!-- <p class="grey-text">Backend developer</p> -->
+       <ul class="list-unstyled">
+           <a href="https://www.facebook.com/swarajindiaofficial/" class="icons-sm fb-ic">
+              <i class="fa fa-facebook blue-text"> </i>
+          </a>
+          <a href="https://twitter.com/_SwarajIndia" class="icons-sm tw-ic">
+              <i class="fa fa-twitter blue-text"> </i>
+          </a>
+          <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+              <i class="fa fa-envelope blue-text"> </i>
+          </a>
+      </ul>
+  </div>
+</div>
+</div>
+
+<div class="item">
+  <div class="col-md-4 col-sm-6 col-xs-12">
+     <div class="card card-body">
+        <div class="avatar mx-auto my-1">
+           <img src="content/presidiummembersphotos/Christina Samy.jpg" 
+           class="img-rounded img-circle  img-fluid" alt="Christina Samy.jpg">
+       </div>
+       <h5 class="font-weight-bold">
+           <strong>Christina Samy</strong>
+       </h5>
+       <!-- <p class="grey-text">Backend developer</p> -->
+       <ul class="list-unstyled">
+           <a href="https://www.facebook.com/swarajindiaofficial/" class="icons-sm fb-ic">
+              <i class="fa fa-facebook blue-text"> </i>
+          </a>
+          <a href="https://twitter.com/_SwarajIndia" class="icons-sm tw-ic">
+              <i class="fa fa-twitter blue-text"> </i>
+          </a>
+          <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+              <i class="fa fa-envelope blue-text"> </i>
+          </a>
+      </ul>
+  </div>
+</div>
+</div>
+
+<div class="item">
+  <div class="col-md-4 col-sm-6 col-xs-12">
+     <div class="card card-body">
+        <div class="avatar mx-auto my-1">
+           <img src="content/presidiummembersphotos/Lalit Babar.jpg" 
+           class="img-rounded img-circle  img-fluid" alt="Lalit Babar.jpg">
+       </div>
+       <h5 class="font-weight-bold">
+           <strong>Lalit Babar</strong>
+       </h5>
+       <!-- <p class="grey-text">Backend developer</p> -->
+       <ul class="list-unstyled">
+           <a href="https://www.facebook.com/swarajindiaofficial/" class="icons-sm fb-ic">
+              <i class="fa fa-facebook blue-text"> </i>
+          </a>
+          <a href="https://twitter.com/_SwarajIndia" class="icons-sm tw-ic">
+              <i class="fa fa-twitter blue-text"> </i>
+          </a>
+          <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+              <i class="fa fa-envelope blue-text"> </i>
+          </a>
+      </ul>
+  </div>
+</div>
+</div>
+
+<div class="item">
+  <div class="col-md-4 col-sm-6 col-xs-12">
+     <div class="card card-body">
+        <div class="avatar mx-auto my-1">
+           <img src="content/presidiummembersphotos/P. S. Sharda.jpg" 
+           class="img-rounded img-circle  img-fluid" alt="P. S. Sharda.jpg">
+       </div>
+       <h5 class="font-weight-bold">
+           <strong>P. S. Sharda</strong>
+       </h5>
+       <!-- <p class="grey-text">Backend developer</p> -->
+       <ul class="list-unstyled">
+           <a href="https://www.facebook.com/swarajindiaofficial/" class="icons-sm fb-ic">
+              <i class="fa fa-facebook blue-text"> </i>
+          </a>
+          <a href="https://twitter.com/_SwarajIndia" class="icons-sm tw-ic">
+              <i class="fa fa-twitter blue-text"> </i>
+          </a>
+          <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+              <i class="fa fa-envelope blue-text"> </i>
+          </a>
+      </ul>
+  </div>
+</div>
+</div>
+
+<div class="item">
+  <div class="col-md-4 col-sm-6 col-xs-12">
+     <div class="card card-body">
+        <div class="avatar mx-auto my-1">
+           <img src="content/presidiummembersphotos/Rajeev Dhyani.jpg" 
+           class="img-rounded img-circle  img-fluid" alt="Rajeev Dhyani.jpg">
+       </div>
+       <h5 class="font-weight-bold">
+           <strong>Rajeev Dhyani</strong>
+       </h5>
+       <!-- <p class="grey-text">Backend developer</p> -->
+       <ul class="list-unstyled">
+           <a href="https://www.facebook.com/swarajindiaofficial/" class="icons-sm fb-ic">
+              <i class="fa fa-facebook blue-text"> </i>
+          </a>
+          <a href="https://twitter.com/_SwarajIndia" class="icons-sm tw-ic">
+              <i class="fa fa-twitter blue-text"> </i>
+          </a>
+          <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+              <i class="fa fa-envelope blue-text"> </i>
+          </a>
+      </ul>
+  </div>
+</div>
+</div>
+
+<div class="item">
+  <div class="col-md-4 col-sm-6 col-xs-12">
+     <div class="card card-body">
+        <div class="avatar mx-auto my-1">
+           <img src="content/presidiummembersphotos/Rajeev Godara.jpg" 
+           class="img-rounded img-circle  img-fluid" alt="Rajeev Godara.jpg">
+       </div>
+       <h5 class="font-weight-bold">
+           <strong>Rajeev Godara</strong>
+       </h5>
+       <!-- <p class="grey-text">Backend developer</p> -->
+       <ul class="list-unstyled">
+           <a href="https://www.facebook.com/swarajindiaofficial/" class="icons-sm fb-ic">
+              <i class="fa fa-facebook blue-text"> </i>
+          </a>
+          <a href="https://twitter.com/_SwarajIndia" class="icons-sm tw-ic">
+              <i class="fa fa-twitter blue-text"> </i>
+          </a>
+          <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+              <i class="fa fa-envelope blue-text"> </i>
+          </a>
+      </ul>
+  </div>
+</div>
+</div>
+
+<div class="item">
+  <div class="col-md-4 col-sm-6 col-xs-12">
+     <div class="card card-body">
+        <div class="avatar mx-auto my-1">
+           <img src="content/presidiummembersphotos/Savita Shinde.jpg" 
+           class="img-rounded img-circle  img-fluid" alt="Savita Shinde.jpg">
+       </div>
+       <h5 class="font-weight-bold">
+           <strong>Savita Shinde</strong>
+       </h5>
+       <!-- <p class="grey-text">Backend developer</p> -->
+       <ul class="list-unstyled">
+           <a href="https://www.facebook.com/swarajindiaofficial/" class="icons-sm fb-ic">
+              <i class="fa fa-facebook blue-text"> </i>
+          </a>
+          <a href="https://twitter.com/_SwarajIndia" class="icons-sm tw-ic">
+              <i class="fa fa-twitter blue-text"> </i>
+          </a>
+          <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+              <i class="fa fa-envelope blue-text"> </i>
+          </a>
+      </ul>
+  </div>
+</div>
+</div>
+
+<div class="item">
+  <div class="col-md-4 col-sm-6 col-xs-12">
+     <div class="card card-body">
+        <div class="avatar mx-auto my-1">
+           <img src="content/presidiummembersphotos/Shalini Malviya.jpg" 
+           class="img-rounded img-circle  img-fluid" alt="Shalini Malviya.jpg">
+       </div>
+       <h5 class="font-weight-bold">
+           <strong>Shalini Malviya</strong>
+       </h5>
+       <!-- <p class="grey-text">Backend developer</p> -->
+       <ul class="list-unstyled">
+           <a href="https://www.facebook.com/swarajindiaofficial/" class="icons-sm fb-ic">
+              <i class="fa fa-facebook blue-text"> </i>
+          </a>
+          <a href="https://twitter.com/_SwarajIndia" class="icons-sm tw-ic">
+              <i class="fa fa-twitter blue-text"> </i>
+          </a>
+          <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+              <i class="fa fa-envelope blue-text"> </i>
+          </a>
+      </ul>
+  </div>
+</div>
+</div>
+
+<div class="item">
+  <div class="col-md-4 col-sm-6 col-xs-12">
+     <div class="card card-body">
+        <div class="avatar mx-auto my-1">
+           <img src="content/presidiummembersphotos/Somnath Tripathi.jpg" 
+           class="img-rounded img-circle  img-fluid" alt="Somnath Tripathi.jpg">
+       </div>
+       <h5 class="font-weight-bold">
+           <strong>Somnath Tripathi</strong>
+       </h5>
+       <!-- <p class="grey-text">Backend developer</p> -->
+       <ul class="list-unstyled">
+           <a href="https://www.facebook.com/swarajindiaofficial/" class="icons-sm fb-ic">
+              <i class="fa fa-facebook blue-text"> </i>
+          </a>
+          <a href="https://twitter.com/_SwarajIndia" class="icons-sm tw-ic">
+              <i class="fa fa-twitter blue-text"> </i>
+          </a>
+          <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+              <i class="fa fa-envelope blue-text"> </i>
+          </a>
+      </ul>
+  </div>
+</div>
+</div>
+
+<div class="item">
+  <div class="col-md-4 col-sm-6 col-xs-12">
+     <div class="card card-body">
+        <div class="avatar mx-auto my-1">
+           <img src="content/presidiummembersphotos/Subhash Lomte.jpg" 
+           class="img-rounded img-circle  img-fluid" alt="Subhash Lomte.jpg">
+       </div>
+       <h5 class="font-weight-bold">
+           <strong>Subhash Lomte</strong>
+       </h5>
+       <!-- <p class="grey-text">Backend developer</p> -->
+       <ul class="list-unstyled">
+           <a href="https://www.facebook.com/swarajindiaofficial/" class="icons-sm fb-ic">
+              <i class="fa fa-facebook blue-text"> </i>
+          </a>
+          <a href="https://twitter.com/_SwarajIndia" class="icons-sm tw-ic">
+              <i class="fa fa-twitter blue-text"> </i>
+          </a>
+          <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+              <i class="fa fa-envelope blue-text"> </i>
+          </a>
+      </ul>
+  </div>
+</div>
+</div>
+
+
+<div class="item">
+  <div class="col-md-4 col-sm-6 col-xs-12">
+     <div class="card card-body">
+        <div class="avatar mx-auto my-1">
+           <img src="content/presidiummembersphotos/man-icon.png" 
+           class="img-rounded img-circle  img-fluid" alt="Subhash Lomte.jpg">
+       </div>
+       <h5 class="font-weight-bold">
+           <strong>V S Purushottam</strong>
+       </h5>
+       <!-- <p class="grey-text">Backend developer</p> -->
+       <ul class="list-unstyled">
+           <a href="https://www.facebook.com/swarajindiaofficial/" class="icons-sm fb-ic">
+              <i class="fa fa-facebook blue-text"> </i>
+          </a>
+          <a href="https://twitter.com/_SwarajIndia" class="icons-sm tw-ic">
+              <i class="fa fa-twitter blue-text"> </i>
+          </a>
+          <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+              <i class="fa fa-envelope blue-text"> </i>
+          </a>
+      </ul>
+  </div>
+</div>
+</div>
+
+
+<div class="item">
+  <div class="col-md-4 col-sm-6 col-xs-12">
+     <div class="card card-body">
+        <div class="avatar mx-auto my-1">
+           <img src="content/presidiummembersphotos/man-icon.png" 
+           class="img-rounded img-circle  img-fluid" alt="Subhash Lomte.jpg">
+       </div>
+       <h5 class="font-weight-bold">
+           <strong>Girish Nandgaonkar</strong>
+       </h5>
+       <!-- <p class="grey-text">Backend developer</p> -->
+       <ul class="list-unstyled">
+           <a href="https://www.facebook.com/swarajindiaofficial/" class="icons-sm fb-ic">
+              <i class="fa fa-facebook blue-text"> </i>
+          </a>
+          <a href="https://twitter.com/_SwarajIndia" class="icons-sm tw-ic">
+              <i class="fa fa-twitter blue-text"> </i>
+          </a>
+          <a href="mailto:contact@swarajindia.org" class="icons-sm ins-ic">
+              <i class="fa fa-envelope blue-text"> </i>
+          </a>
+      </ul>
+  </div>
+</div>
+</div>
+
+
+</div>
+<a id="left_icon_carousel" class="left carousel-control" href="#myCarousel2" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+<a id="right_icon_carousel" class="right carousel-control" href="#myCarousel2" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+</div>
+</div>
+</div>
+</section>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- *****************Footer****************** -->
+<div class="FOOTER row-full">
+	<!-- <div class="container" >
+		<div class="row">
+
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 animated wow fadeInUp">
+				<div id="yellow_title"><span style="color:#f7cb2e;">| Q</span>uick Link</div><br>
+				<a href="content.html?dc=pgcontactus" class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;">> Contact</a><br>
+				<a href="index.html" class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;">> Home</a><br>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;">> Terms &amp; Conditions</a><br><br>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 animated wow fadeInUp">
+				<div id="yellow_title"><span style="color:#f7cb2e;">| F</span>ollow Us</div><br>
+				<a href="https://www.facebook.com/swarajindiaofficial/" class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;">> Facebook </a><br>
+				<a href="https://twitter.com/_SwarajIndia" class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;">> Twitter</a><br>
+				<a href="https://www.youtube.com/swarajindia" class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;">> YouTube</a><br>
+				<a href="https://www.instagram.com/swarajindia/" class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;">> Instagram</a><br>
+				<a href="mailto:contact@swarajindia.org" class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;">> Google Plus</a><br><br>
+			</div>
+			<div class="col-lg-4 col-md-3 col-sm-6 col-xs-12 animated wow fadeInUp">
+				<div id="yellow_title"><span style="color:#f7cb2e;">| S</span>ubscribe newsletter</div><br>
+				<form role="newsletter">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="E-mail ID">
+					</div>
+					<button type="submit" class="btn btn-default" style="width: 100%; background: #333; color:white;">Subscribe</button>
+				</form><br><br>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 animated wow fadeInUp">
+				<div id="yellow_title"><span style="color:#f7cb2e;">| C</span>ontact us</div><br>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 21px;">Contact : +91-9845177160</a><br>
+				<a href="mailto:contact@swarajindia.org" class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;">E-mail :  contact@swarajindia.org</a><br>
+			</div>
+		</div>
+	</div>
+ -->
+
+
+
+	<div class="container-fluid" >
+		<div class="row">
+
+			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 animated wow fadeInUp">
+				<div id="yellow_title"><span style="color:#f7cb2e;">| A</span>bout us</div><br>
+
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=aboutus">
+				> The Party</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=aboutus#Objectives">
+				> The Objective</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=aboutus#Constitution">
+				> Constitution</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=aboutus#Vision">
+				> Swaraj Darshan (Hindi)</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=aboutus#Vision_English">
+				> Vision Swaraj (English)</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=underwork">
+				> FAQs</a><br><br>
+                <a class="btn btn-primary btn-md" role="button" style="color: white;font-size: 16px;" 
+                href="index.html">
+                <strong>> HOME</strong></a>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 animated wow fadeInUp">
+				<div id="yellow_title"><span style="color:#f7cb2e;">| O</span>rganisation</div><br>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=pg_o_pm">
+				> Presidium</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=pg_o_nem">
+				> National Executive</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=pg_o_nob">
+				> National Office Bearers</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=underwork#NationalTeamsMembers">
+				> National Teams Members</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=underwork#Committees">
+				> Committees</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=pg_o_mom">
+				> Minutes of Meetings</a>
+			</div>
+
+			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 animated wow fadeInUp" style="">
+				<div id="yellow_title"><span style="color:#f7cb2e;">| D</span>elhi Mcd Elections</div><br>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;text-align: left;" 
+				href="content.html?dc=pg_cgp">
+				> Candidate Selection <br> &nbsp; &nbsp;Procedure</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;text-align: left;" 
+				href="content.html?dc=pg_caf">
+				> Candidate Application <br> &nbsp; &nbsp;Form</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=pg_cl">
+				> Candidate List</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;text-align: left;" 
+				href="content.html?dc=pg_csic">
+				> Candidate Selection <br> &nbsp; &nbsp;Integrity Committeed</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=underwork#Manifesto">
+				> Manifesto</a>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 animated wow fadeInUp">
+				<div id="yellow_title"><span style="color:#f7cb2e;">| M</span>edia</div><br>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="index.html#press_current_news">
+				> Press Release</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="index.html#videos">
+				> Video Gallery</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="index.html#gallery">
+				> Image Gallery</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="index.html#leader_speech_latestnews">
+				> Leader’s Speeches</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=underwork#readesopinion">
+				> Reader’s Opinion</a>
+				<br>
+				<br>
+				<div id="yellow_title"><span style="color:#f7cb2e;">| S</span>ocial Media</div>
+				<div class="link_icons linkis" style=" padding: 0; margin-left: -10px; margin-right: -10px;">
+					<a href="https://www.facebook.com/swarajindiaofficial/" class="fa fa-facebook fa_y" target="_blank"></a>
+					<a href="https://twitter.com/_SwarajIndia" class="fa fa-twitter fa_y" target="_blank"></a>
+					<a href="https://www.youtube.com/swarajindia" class="fa fa-youtube-play fa_y" target="_blank"></a>
+					<a href="https://www.instagram.com/swarajindia/" class="fa fa-instagram fa_y" target="_blank"></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 animated wow fadeInUp">
+				<div id="yellow_title"><span style="color:#f7cb2e;">| D</span>ocument</div><br>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=aboutus#Constitution">
+				> Constitution</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=aboutus#Vision">
+				> Swaraj Darshan (Our Vision)</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=organisation#MinutesofMeetings">
+				> Minutes of Meetings</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="#">
+				> MCD Manifesto</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=pgkb1">
+				> Kisan Bill I</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content.html?dc=pgkb2">
+				> Kisan Bill II</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="content/Kisan Green Paper Jan30 2018.pdf" target="_blank">
+				> Kisan Green Paper</a>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 animated wow fadeInUp">
+				<div id="yellow_title"><span style="color:#f7cb2e;">| E</span>ngage with us</div><br>
+
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="">
+				> Online Membership</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="">
+				> Volunteer</a>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 16px;" 
+				href="">
+				> Social Media</a>
+				<br><br>
+
+				<div id="yellow_title"><span style="color:#f7cb2e;">| C</span>ontact us</div>
+				<a class="btn btn-link btn-xs" role="button" style="color: white;font-size: 21px;">Contact : +91-9845177160</a><br>
+                <a href="mailto:contact@swarajindia.org" class="btn btn-link btn-xs" role="button" style="color: white;font-size: 15px;">E-mail :  contact@swarajindia.org</a><br>
+
+				<br><br>
+				<!-- <div id="yellow_title"><span style="color:#f7cb2e;">| D</span>onate</div>
+				<a class="btn btn-lg btn-primary" style="width: 100%" role="button" href="content.html?dc=underwork#Donate"><span class="glyphicon glyphicon-heart" ></span> Donate</a> -->
+			</div>
+		</div>
+	</div>
+
+    <hr>
+
+    <div class="container-fluid" >
+        <div class="row">
+            <div class="col-md-2">
+                <a class="btn btn-lg btn-primary" style="width: 100%" role="button" href="content.html?dc=underwork#BecomeAMember">BECOME A MEMBER</a>
+            </div>
+            <div class="col-md-2 text-right">
+                <div id="yellow_title"><span style="color:#f7cb2e;">| N</span>ewsletter</div><br>
+            </div>
+            <form role="newsletter">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="E-mail ID">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-default" style="width: 100%; background: #333; color:white;">Subscribe</button>
+                
+                </div>
+            </form>
+            <div class="col-md-2 col-md-offset-1">
+                <a class="btn btn-lg btn-primary" style="width: 100%" role="button" href="http://donate.swarajindia.org"><span class="glyphicon glyphicon-heart" ></span> Donate</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" style="background: #222; color:purple; padding: 20px 0 20px 100px; font-family: arial;">
+	Copyright © 2017 - 2018 NPDS Mani Group. All Rights Reserved.
+</div>
+</div>
+</nav>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+
+<!-- *************************madal for gallery*********************** -->
+<style type="text/css">
+.modal-dialog{
+	margin-top: 10%;
+}
+.modal-header{
+	padding-bottom: 30px;
+}
+.axe{
+	font-size: 32px;
+}
+</style>
+<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content ">
+			<div class="modal-header bg-warning">
+				<button type="button" class="close" data-dismiss="modal"><span class="axe" aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="image-gallery-title"></h4>
+			</div>
+			<div class="modal-body bg-warning">
+				<img id="image-gallery-image" class="img-responsive" src="">
+			</div>
+			<div class="modal-footer bg-warning">
+
+				<div class="col-md-2">
+					<button type="button" class="btn btn-warning" id="show-previous-image">Previous</button>
+				</div>
+
+				<div class="col-md-8 text-justify" id="image-gallery-caption">
+					This text will be overwritten by jQuery
+				</div>
+
+				<div class="col-md-2">
+					<button type="button" id="show-next-image" class="btn btn-warning">Next</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+
+		loadGallery(true, 'a.thumbnail');
+
+    //This function disables buttons when needed
+    function disableButtons(counter_max, counter_current){
+    	$('#show-previous-image, #show-next-image').show();
+    	if(counter_max == counter_current){
+    		$('#show-next-image').hide();
+    	} else if (counter_current == 1){
+    		$('#show-previous-image').hide();
+    	}
+    }
+
+    function loadGallery(setIDs, setClickAttr){
+    	var current_image,
+    	selector,
+    	counter = 0;
+
+    	$('#show-next-image, #show-previous-image').click(function(){
+    		if($(this).attr('id') == 'show-previous-image'){
+    			current_image--;
+    		} else {
+    			current_image++;
+    		}
+
+    		selector = $('[data-image-id="' + current_image + '"]');
+    		updateGallery(selector);
+    	});
+
+    	function updateGallery(selector) {
+    		var $sel = selector;
+    		current_image = $sel.data('image-id');
+    		$('#image-gallery-caption').text($sel.data('caption'));
+    		$('#image-gallery-title').text($sel.data('title'));
+    		$('#image-gallery-image').attr('src', $sel.data('image'));
+    		disableButtons(counter, $sel.data('image-id'));
+    	}
+
+    	if(setIDs == true){
+    		$('[data-image-id]').each(function(){
+    			counter++;
+    			$(this).attr('data-image-id',counter);
+    		});
+    	}
+    	$(setClickAttr).on('click',function(){
+    		updateGallery($(this));
+    	});
+    }
+});
+</script>
+
+
+
+
+
+
+
+</body>
+
+
+<script type="text/javascript">
+    $('ul.nav li.dropdown').hover(
+        function() {
+            if (screen.width > 550) {
+                $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+            }
+          }, 
+        function() {
+            if (screen.width > 550) {
+                $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+            }
+          }
+    );
+</script>
+
+
+
+
+<script type="text/javascript">
+	$('#myCarousel2').carousel({
+		interval: 10000
+	})
+
+	$('.carousel2 .item').each(function(){
+		if ($(window).width() > 786){
+			var next = $(this).next();
+			if (!next.length) {
+				next = $(this).siblings(':first');
+			}
+			next.children(':first-child').clone().appendTo($(this));
+
+			if (next.next().length>0) {
+				next.next().children(':first-child').clone().appendTo($(this));
+			}
+			else {
+				$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+			}
+		}
+	});
+
+
+</script>
+
+
+
+
+
